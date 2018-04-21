@@ -11,4 +11,4 @@ script:
 deploy:
   provider: heroku
   app: dry-peak-88637
-  api_key: $[HEROKU_API_KEY]
+  api_key: ${HEROKU_API_KEY}
