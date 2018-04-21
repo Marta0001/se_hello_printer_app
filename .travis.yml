@@ -1,0 +1,14 @@
+language: python
+services:
+  - docker
+python:
+  - "2.7"
+install:
+  - make deps
+script:
+  - make lint
+  - make test
+deploy:
+  provider: heroku
+  app: dry-peak-88637
+  api_key: $[HEROKU_API_KEY]
