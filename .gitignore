@@ -1,3 +1,5 @@
 **/*.pyc
 .cache
 .pytest_*
+test_results.xml
+.coverage
