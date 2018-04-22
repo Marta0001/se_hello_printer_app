@@ -40,9 +40,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Integracja z TravisCI:
 
-  .. image:: https://travis-ci.org/Marta0001/se_hello_printer_app.svg?branch=master
+.. image:: https://travis-ci.org/Marta0001/se_hello_printer_app.svg?branch=master
 
-    ...
 
 
 Pomocnicze
