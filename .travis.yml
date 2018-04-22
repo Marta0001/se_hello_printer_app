@@ -8,6 +8,8 @@ install:
 script:
   - make lint
   - make test
+  - make test_cov
+  - make test_xunit
 deploy:
   provider: heroku
   app: dry-peak-88637
